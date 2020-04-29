@@ -1,3 +1,5 @@
+> 由于[原项目](https://github.com/akfish/hexo-github)不在维护，我稍微修复了一下
+
 # hexo-github
 
 Display a GitHub repositoy badge with timeline in your post to keep track of version difference.
@@ -12,14 +14,14 @@ This plugin display a badge with timeline for a GitHub repository that will comp
 
 ## Install
 
-`npm install --save hexo-github`
+`npm install --save github:HCLonely/hexo-github`
 
 ## Usage
 
-Insert `github` tag in your article:
+Insert `commit` tag in your article:
 
 ```markdown
-{% github user repo referenced_commit [auto_expand = true | false] [width = 100%] %}
+{% commit user repo referenced_commit [auto_expand = true | false] [width = 100%] %}
 ```
 
 Argument | Description
@@ -33,11 +35,5 @@ width    | (Optional, default == 100%). Widget's width. It should be a valid CSS
 Example:
 
 ```markdown
-{% github akfish hexo-math b82e65 %}
+{% commit akfish hexo-math b82e65 %}
 ```
-
-## Known issues & TODO
-
-- [ ] It will not work if referenced commit is not in latest 100 ones
-- [x] Responsive design
-- [ ] Mobile layout
