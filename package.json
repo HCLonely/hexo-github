@@ -1,5 +1,5 @@
 {
-  "name": "hexo-github",
+  "name": "@HCLonely/hexo-github",
   "version": "1.0.2",
   "description": "Display a GitHub repositoy badge with timeline in your post to keep track of version difference.",
   "main": "index.js",
@@ -19,8 +19,7 @@
     "github",
     "timeline"
   ],
-  "author": "HCLonely <h1606051253@gmail.com> (http://blog.hclonely.com)",
-  "contributors": ["AKFish <akfish@gmail.com> (http://catx.me)"],
+  "author": "HCLonely & AKFish",
   "license": "MIT",
   "dependencies": {
     "hexo-fs": "^3.0.1",
