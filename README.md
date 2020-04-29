@@ -14,7 +14,7 @@ This plugin display a badge with timeline for a GitHub repository that will comp
 
 ## Install
 
-`npm install --save github:HCLonely/hexo-github`
+`npm install --save @hclonely/hexo-github`
 
 ## Usage
 

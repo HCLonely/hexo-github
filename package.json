@@ -1,5 +1,5 @@
 {
-  "name": "@HCLonely/hexo-github",
+  "name": "@hclonely/hexo-github",
   "version": "1.0.2",
   "description": "Display a GitHub repositoy badge with timeline in your post to keep track of version difference.",
   "main": "index.js",
