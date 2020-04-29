@@ -67,7 +67,7 @@ hexo.extend.tag.register('commit', function(args) {
     repo = args[1],
     commit = args[2],
     autoExpand = args[3] === 'true',
-    id = "badge-container-" + user + "-" + repo.replace(/\./, "_") + "-" + commit,
+    id = "badge-container-" + user + "-" + repo.replace(/\./g, "_") + "-" + commit,
     width = args[4] ? args[4] : "100%";
 
   var payload = {
