@@ -1,6 +1,5 @@
 var fs = require('hexo-fs');
 var path = require('path');
-var Promise = require('bluebird');
 var nunjucks = require('nunjucks');
 var less = require('less');
 
@@ -63,7 +62,7 @@ function tryParseUrl(url) {
 
 nunjucks.configure(__dirname, {watch: false});
 
-hexo.extend.tag.register('github', function(args) {
+hexo.extend.tag.register('commit', function(args) {
   var user = args[0],
     repo = args[1],
     commit = args[2],
